@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@300&family=Tenor+Sans&display=swap');
+
+body {
+  background-color: #f1f6f9;
+  font-size: 14px;
+}
+h1,h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #14274e;
+}
+h2 {
+    font-size: 18px;
+}
+p, ol, ul, a { 
+    font-family: 'Tenor Sans', sans-serif;
+}
+ul, ol {
+    text-align: left;
+}
+.dark-background {
+    background-color: #394867;
+    color: white;
+    padding: 8px;
+    margin: none;
+}
+.image-circle {
+    border-radius: 50%;
+}
+.image-icon-size {
+    height: 20px;
+    width: auto;
+}
+.image-small {
+    height: 100px;
+    width: auto;
+}
+.card {
+    background-color: white;
+    padding: 16px 4px;
+    margin: 16px 32px;
+    align-content: center;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px #b5c2dc;
+}
+#france-image-card {
+    background-image: url("data:image/jpeg;base64,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") ;
+}
+.btn-blue {
+    background-color: #394867;
+    color: white;
+    font-weight: bold;
+    padding: 8px 4px;
+    align-content: center;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px #b5c2dc;
+    text-decoration: none;
+}
+.btn-blue:hover {
+    background-color: #233861;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+ }
+.list-inline li {
+    display: inline-block;
+    font-size: 40px;
+    padding: 4px 16px;
+    background-color: #9ba4b4;
+    border-radius: 4px;
+
+}
+.media-icon-light {
+    color: #f1f6f9;
+}
+#rounded-top {
+    border-radius: 4px 4px 0px 0px;
+}
+#top-card {
+    padding: 0 0 8px 0;
+}
+.no-top-padding {
+    padding: 0 0 8px 0;
+    margin: 0 0;
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+/* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+/* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    font-size: 90%;
+  }
+}
+@media (max-width: 540px) {
+/* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    font-size: 10px;
+  }
+}
